@@ -19,7 +19,7 @@ names={}
 print("    !!! Let's start voting !!!   ")
 
 for j in range(1,total+1):
-    name=input("Enter your name: ")
+    name=input(str(j)+"Enter your name: ")
     vote=int(input("Hello "+name+" ,Which option do you want to vote for? "))
     names[name]=vote
     votes[vote]+=1
