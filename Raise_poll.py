@@ -1,4 +1,4 @@
-
+#code by Anmol
 poll_msg= input("Enter your poll message: ")             #Chai Break time??
 
 options= int(input("How many options are there? "))      #3
